@@ -34,3 +34,7 @@ pipeline:
             spec: {}
         type: CI
         description: ""
+        delegateSelectors:
+          - kubernetes-delegate
+          - helm-delegate
+          - docker-delegate
