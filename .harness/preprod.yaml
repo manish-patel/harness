@@ -1,0 +1,4 @@
+environment:
+  name: preprod
+  identifier: preprod
+  type: PreProduction
