@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_manish_patel_harness_1720179048036-pr-trigger-input-set
+  identifier: Build_manish_patel_harness_1720179048036prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_manish_patel_harness_1720179048036
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
